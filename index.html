@@ -1,103 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="./assets/styles/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
     <title>Photography Agency</title>
-    
-</head>
-<body>
-   <main class="main">
-    <!---  Navbar  -->
-    <nav class="navbar">
+  </head>
+  <body>
+    <main class="main">
+      <!---  Navbar  -->
+      <nav class="navbar">
         <div class="navbar-brand">BRAND NAME</div>
         <div class="navbar-menu">
-            <ul class="navbar-links">
-                <li>
-                    <a href="#">What do we offer?</a>
-                </li>
-                <li>
-                    <a href="#">Contact us</a>
-                   
-                </li>
-                <li>
-                    <button class="navbar-cta">HIRE US</button>
-                </li>
-            </ul>
-
+          <ul class="navbar-links">
+            <li>
+              <a href="#">What do we offer?</a>
+            </li>
+            <li>
+              <a href="#">Contact us</a>
+            </li>
+            <li>
+              <button class="navbar-cta">HIRE US</button>
+            </li>
+          </ul>
         </div>
-    </nav>
-    <!--- End of Navbar  -->
+      </nav>
+      <!--- End of Navbar  -->
 
-    <!---  Main Content  -->
-        <div class="main-content">
-            <div class="main-staff">
-                <div class="image-container" >
-                    <span class="image-line"></span>
-                    <img class="staff-member" src="./assets/images/image-one.png" fullName="Daniela Torres"  description="With more than 7 years in the software development industry, I focus on delivering robust and scalable applications. My expertise includes Python, Django, and RESTful APIs, which I leverage to build efficient back-end systems for businesses. I am passionate about solving complex problems and integrating cutting-edge technologies to create seamless user experiences that empower companies to grow." alt="" >
-                </div>
-                <div  class="image-container" >
-                    <span class="image-line"></span>
-                    <img class="staff-member" src="./assets/images/image-two.png" fullName="Ethan Bradley" description="A seasoned full-stack developer with 6 years of experience, I specialize in building highly interactive web applications using React.js, Node.js, and MongoDB. My work centers on helping startups and enterprises streamline their digital workflows and boost productivity. I thrive on crafting solutions that balance performance, usability, and scalability to ensure success in a rapidly evolving digital landscape." des alt="">
-                </div>
-                <div  class="image-container">
-                    <span class="image-line"></span>
-                    <img class="staff-member" src="./assets/images/image-three.png" fullName="Olivia Bennett" description="As a UX/UI designer with 4 years of experience, I focus on designing intuitive and engaging digital experiences. With expertise in tools like Figma, Adobe XD, and Sketch, I collaborate closely with developers to create visually appealing, user-centered websites and applications. My goal is to bring business objectives to life through thoughtful design that resonates with users and drives engagement." alt="">
-                </div>
-                <div  class="image-container">
-                    <span class="image-line"></span>
-                    <img class="staff-member" src="./assets/images/image-four.png" fullName="Arjun Patel" description="With 8 years of experience as a full-stack developer, I specialize in developing end-to-end web solutions using technologies like JavaScript, React, and Laravel. I assist businesses in optimizing their digital platforms by building robust, secure, and scalable applications. My expertise lies in delivering projects that blend functionality with seamless user experiences, helping companies achieve their digital transformation goals."  alt="">
-                </div>
-            </div>
-            <div class="staff-info">
-                <h1 class="staff-name"></h1>
-                <p class="staff-description"></p>
-            </div>
-                
-
-           
+      <!---  Main Content  -->
+      <div class="main-content">
+        <div class="main-staff">
+          <div class="image-container">
+            <span class="image-line"></span>
+            <img
+              class="staff-member"
+              src="./assets/images/image-one.png"
+              fullName="Daniela Torres"
+              description="With more than 7 years in the software development industry, I focus on delivering robust and scalable applications. My expertise includes Python, Django, and RESTful APIs, which I leverage to build efficient back-end systems for businesses. I am passionate about solving complex problems and integrating cutting-edge technologies to create seamless user experiences that empower companies to grow."
+              alt=""
+            />
+          </div>
+          <div class="image-container">
+            <span class="image-line"></span>
+            <img
+              class="staff-member"
+              src="./assets/images/image-two.png"
+              fullName="Ethan Bradley"
+              description="A seasoned full-stack developer with 6 years of experience, I specialize in building highly interactive web applications using React.js, Node.js, and MongoDB. My work centers on helping startups and enterprises streamline their digital workflows and boost productivity. I thrive on crafting solutions that balance performance, usability, and scalability to ensure success in a rapidly evolving digital landscape."
+              des
+              alt=""
+            />
+          </div>
+          <div class="image-container">
+            <span class="image-line"></span>
+            <img
+              class="staff-member"
+              src="./assets/images/image-three.png"
+              fullName="Olivia Bennett"
+              description="As a UX/UI designer with 4 years of experience, I focus on designing intuitive and engaging digital experiences. With expertise in tools like Figma, Adobe XD, and Sketch, I collaborate closely with developers to create visually appealing, user-centered websites and applications. My goal is to bring business objectives to life through thoughtful design that resonates with users and drives engagement."
+              alt=""
+            />
+          </div>
+          <div class="image-container">
+            <span class="image-line"></span>
+            <img
+              class="staff-member"
+              src="./assets/images/image-four.png"
+              fullName="Arjun Patel"
+              description="With 8 years of experience as a full-stack developer, I specialize in developing end-to-end web solutions using technologies like JavaScript, React, and Laravel. I assist businesses in optimizing their digital platforms by building robust, secure, and scalable applications. My expertise lies in delivering projects that blend functionality with seamless user experiences, helping companies achieve their digital transformation goals."
+              alt=""
+            />
+          </div>
         </div>
-    <!--- End of Main Content  -->
-   </main>
+        <div class="staff-info">
+          <h1 class="staff-name"></h1>
+          <p class="staff-description"></p>
+        </div>
+      </div>
+      <!--- End of Main Content  -->
+    </main>
 
-   <script>
-   let staffMember = document.querySelectorAll('.staff-member');
-   let staffInfo = document.querySelector('.staff-info')
-   let fullName = document.querySelector(".staff-name")
-   let description = document.querySelector(".staff-description")
-   staffInfo.style.transition = "visibility 1s, opacity 0.5s linear"
-        staffInfo.style.visibility = "hidden"
-        staffInfo.style.opacity = "0"
+    <script>
+      let staffMember = document.querySelectorAll(".staff-member");
+      let staffInfo = document.querySelector(".staff-info");
+      let fullName = document.querySelector(".staff-name");
+      let description = document.querySelector(".staff-description");
+      staffInfo.style.transition = "visibility 1s, opacity 0.5s linear";
+      staffInfo.style.visibility = "hidden";
+      staffInfo.style.opacity = "0";
 
-   staffMember.forEach(img =>{
-    
-    img.addEventListener('mouseover',()=>{
-    
-        
-        
-        fullName.textContent = img.getAttribute("fullName")
-        description.textContent = img.getAttribute("description")
-        setTimeout(()=>{
-            staffInfo.style.visibility = "visible"
-            staffInfo.style.opacity = "1"  
-        },350)
-        
-
-        
-    })
-    img.addEventListener('mouseout',()=>{
-        staffInfo.style.transition = "visibility 0s, opacity 0.5s linear"
-        staffInfo.style.visibility = "hidden"
-        staffInfo.style.opacity = "0"
-
-
-        
-        
-    })
-
-})
-
-   </script>
-</body>
+      staffMember.forEach((img) => {
+        img.addEventListener("mouseover", () => {
+          fullName.textContent = img.getAttribute("fullName");
+          description.textContent = img.getAttribute("description");
+          setTimeout(() => {
+            staffInfo.style.visibility = "visible";
+            staffInfo.style.opacity = "1";
+          }, 350);
+        });
+        img.addEventListener("mouseout", () => {
+          staffInfo.style.transition = "visibility 0s, opacity 0.5s linear";
+          staffInfo.style.visibility = "hidden";
+          staffInfo.style.opacity = "0";
+        });
+      });
+    </script>
+  </body>
 </html>
