@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  background-color: #000000;
+}
+
+.active {
+  display: flex !important;
+}
+
+.inactive {
+  display: none;
+}
+
+.main {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+.main .navbar {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 4.8rem;
+  margin-right: 4.8rem;
+  margin-top: 3.4rem;
+}
+.main .navbar .navbar-brand {
+  color: #FFFFFF;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+.main .navbar .navbar-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .navbar .navbar-menu .navbar-links {
+  display: flex;
+  flex-direction: row;
+  gap: 8.6rem;
+  align-items: center;
+}
+.main .navbar .navbar-menu .navbar-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.main .navbar .navbar-menu .navbar-links a:hover {
+  transition: 0.3s ease-out;
+  color: #ff0000;
+  font-weight: 500;
+}
+.main .navbar .navbar-menu .navbar-links button {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 0.2rem solid #ff0000;
+  text-transform: uppercase;
+  padding-left: 3.1rem;
+  padding-right: 3.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.main .main-content {
+  margin-top: 6rem;
+  max-width: 113rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main .main-content .main-staff {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.main .main-content .main-staff .image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .main-content .main-staff .image-container .image-line {
+  width: 0rem;
+  background-color: #ff0000;
+  height: 0.5rem;
+}
+.main .main-content .main-staff .image-container:hover .image-line {
+  transition: 0.9s ease-out;
+  width: 100%;
+}
+.main .main-content .main-staff img {
+  max-width: 28rem;
+  max-height: 44rem;
+  filter: grayscale(1);
+}
+.main .main-content .main-staff img:hover {
+  filter: none;
+}
+.main .main-content .staff-info {
+  margin-top: 2rem;
+}
+.main .main-content .staff-info .staff-name {
+  color: #ff0000;
+  font-size: 3.2rem;
+  font-weight: bolder;
+}
+.main .main-content .staff-info .staff-description {
+  font-size: 2.1rem;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=index.css.map */
