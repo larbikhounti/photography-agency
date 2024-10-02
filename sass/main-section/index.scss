@@ -1,0 +1,103 @@
+.main {
+  max-height: 100vh;
+  max-width: 100vw;
+  .navbar {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4.8rem;
+    margin-right: 4.8rem;
+    margin-top: 3.4rem;
+    .navbar-brand {
+      color: $color-white;
+      font-size: 3.2rem;
+      font-weight: bold;
+    }
+    .navbar-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .navbar-links {
+        display: flex;
+        flex-direction: row;
+        gap: 8.6rem;
+        align-items: center;
+
+        a {
+          text-decoration: none;
+          color: $color-white;
+          &:hover {
+            transition: 0.3s ease-out;
+            color: $color-red;
+            font-weight: 500;
+          }
+        }
+        button {
+          background-color: $color-black;
+          color: $color-white;
+          border: 0.2rem solid $color-red;
+          text-transform: uppercase;
+          padding-left: 3.1rem;
+          padding-right: 3.1rem;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          font-weight: bold;
+          font-size: 1.6rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .main-content {
+    margin-top: 6rem;
+    max-width: 113rem;
+    margin-left: auto;
+    margin-right: auto;
+    .main-staff {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      .image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .image-line {
+          width: 0rem;
+          background-color: $color-red;
+          height: 0.5rem;
+        }
+        &:hover {
+          .image-line {
+            transition: 0.9s ease-out;
+            width: 100%;
+          }
+        }
+      }
+      img {
+        max-width: 28rem;
+        max-height: 44rem;
+        filter: grayscale(1);
+        &:hover {
+          filter: none;
+        }
+      }
+    }
+    .staff-info {
+      margin-top: 2rem;
+
+      .staff-name {
+        color: $color-red;
+        font-size: 3.2rem;
+        font-weight: bolder;
+      }
+      .staff-description {
+        font-size: 2.1rem;
+        color: $color-white;
+        font-weight: lighter;
+      }
+    }
+  }
+}
